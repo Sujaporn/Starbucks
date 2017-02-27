@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.homepage {
+	background-color: #333333;
+	height: 667px;
+	position: relative;
+}
+#header-wrapper {
+	background: linear-gradient(#5da32c, #287818);
+    width: 100%;
+    height: 60px;
+}
+h1 {
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+#banner {
+    background: linear-gradient(#252f1e, #35472b);
+	width: 100%;
+	height: 95px;
+	margin-top: 0px;
+	position: relative;
+}
+h2 {
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #5da32c;
+	font-size: 17px;
+}
+#stars {
+	color: #FFF;
+	margin-left: 20px;
+	font-size: 12px;
+}
+#number {
+	color: #5da32c;
+	text-align: left;
+	padding-left: 35px;
+	font-size: 30px;
+	position: absolute;
+	top: 17px;
+}
+p {
+    color: #999;
+    margin-left: 20px;
+	font-size: 12px;
+}
+#btn_reward{
+    background: linear-gradient(#686868, #333333); /* Standard syntax */
+    border: none;
+    border-top: 2px solid #999999;
+    border-radius: 3px;
+	color: #FFF;
+	width: 90px;
+	height: 50px;
+	position: absolute;
+	top: 27px;
+	right: 15px;
+	font-size: 13px;
+}
+#card {
+	background-color: #333333;
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+#img_card {
+	width: 100%;
+	height: 230px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+h3 {
+	text-align: left;
+	padding-left: 20px;
+	color: #FFF;
+	font-size: 20px;
+}
+h4 {
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #FFF;
+	font-size: 12px;
+}
+#register {
+	text-align: right;
+	float: right;
+	padding-right: 20px;
+	color: #62964b;
+	font-size: 12px;
+	position: absolute;
+	top: 240px;
+    right: 0px;
+}
+#id {
+	text-align: right;
+	float: right;
+	padding-right: 20px;
+	color: #62964b;
+	font-size: 15px;
+}
+#btn_manage {
+	background: linear-gradient(#686868, #333333); /* Standard syntax */
+    border: none;
+    border-top: 2px solid #999999;
+    border-radius: 3px;
+	color: #FFF;
+	width: 90px;
+	height: 50px;
+	position: absolute;
+    top: 300px;
+    left: 80px;
+	font-size: 13px;
+}
+#btn_add {
+	background: linear-gradient(#686868, #333333); /* Standard syntax */
+    border: none;
+    border-top: 2px solid #999999;
+    border-radius: 3px;
+	color: #FFF;
+	width: 90px;
+	height: 50px;
+	position: absolute;
+    top: 300px;
+    right: 80px;
+    font-size: 13px;
+}
+
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: #2a2a2a;
+	position: absolute;
+	bottom: 0;
+}
+#footer ul{
+	padding: 0 10px;
+}
+#footer li{
+	display: inline;
+	color: #676461;
+	font-size: 12px;
+	margin:0 10px;
+	text-align: center;
+}
+#footer li a{
+	color: #676461;
+}
+.active{
+	color: white;
+}
+
+#transaction {
+	background: linear-gradient(#333333, #5e5f5f, #333333);
+	width: 100%;
+	height: 400px;
+}
+#into_card {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+#into_id {
+	text-align: right;
+	float: right;
+	padding-right: 35px;
+	padding-top: 30px;
+	color: #62964b;
+	font-size: 15px;
+}
+h5 {
+	text-align: center;
+	margin-top: 15px;
+	color: #62964b;
+	font-size: 15px;
+}
+#box_tran {
+	margin-top: 15px;
+	margin-left: 12px;
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 340px;
+	height: 290px;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+#date {
+	float: left;
+	font-size: 25px;
+	color: #666;
+}
+#time {
+	padding-left: 20px;
+	font-size: 12px;
+	color: #666;
+}
+#baht {
+	padding-left: 40px;
+	font-size: 20px;
+	color: #cd163f;
+}
+
+#glass {
+	background-color: #FFF;
+	width: 100%;
+	height: 550px;
+}
+#drink {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+#img1 {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+#into_drink {
+	color: #999;
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	left: 80px;
+}
+#img2 {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+#into_glass {
+	color: #999;
+    margin-left: 30px;
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+#img3 {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+}
+#line1 {
+	width: 100%;
+	height: 2px;
+	background-color: #9dc274;
+	margin-top: 10px;
+}
+#box_glass{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+#img4 {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+#into1 {
+	padding-left: 25px;
+	color: #0d7753;
+	position: absolute;
+	top: 140px;
+}
+#into2 {
+	padding-left: 150px;
+	color: #0d7753;
+	position: absolute;
+	top: 160px;
+}
+#line2{
+	width: 80%;
+	height: 2px;
+	background-color: #9dc274;
+	position: absolute;
+	top: 190px;
+	left: 33px;
+}
+#into3 {
+	color: #999;
+	font-size: 12px;
+	position: absolute;
+	top: 210px;
+	left: 33px;
+}
+#link {
+	font-size: 12px;
+	color: #77b84d;
+	position: absolute;
+	top: 280px;
+	left: 33px;
+}
+#menu {
+	position: absolute;
+	top: -15px;
+}
+
+#card {
+	background: linear-gradient(#333333, #5e5f5f, #333333);
+	width: 100%;
+	height: 500px;
+}
+#img_code {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+#img5 {
+	position: absolute;
+	top: 240px;
+	left: 175px;
+}
+#scan {
+	color: #FFF;
+	margin-left: 150px;
+	font-size: 20px;
+	position: absolute;
+	top: 350px;
+}
+
+#back {
+	color: #FFF;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:320px){
+
+}
